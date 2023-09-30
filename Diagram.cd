@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FinalProjectExceptionsAndHandling.PersonData">
+    <Position X="20.25" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QgAgAABAAABUAEBGBAIEgAAAEAAEAgAgCAQICIAAAAA=</HashCode>
+      <FileName>PersonData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectExceptionsAndHandling.Presenter">
+    <Position X="31" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAQABAAAAAAAIAAAAAAAAgAAIAAA=</HashCode>
+      <FileName>Presenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectExceptionsAndHandling.Exceptions.BirthDateWrongException">
+    <Position X="24.75" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\BirthDateWrongException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectExceptionsAndHandling.Exceptions.GenderWrongException">
+    <Position X="30.25" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\GenderWrongException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectExceptionsAndHandling.Exceptions.NameWrongException">
+    <Position X="17" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\NameWrongException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectExceptionsAndHandling.Exceptions.PersonDataWrongCount">
+    <Position X="19.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\PersonDataWrongCount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectExceptionsAndHandling.Exceptions.PersonDataWrongCountLess">
+    <Position X="27.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\PersonDataWrongCountLess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectExceptionsAndHandling.Exceptions.PersonDataWrongCountMore">
+    <Position X="33" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\PersonDataWrongCountMore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectExceptionsAndHandling.Exceptions.PersonDataWrongException" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\PersonDataWrongException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectExceptionsAndHandling.Exceptions.PhoneWrongException">
+    <Position X="22.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\PhoneWrongException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectExceptionsAndHandling.Services.PersonDataList" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAEAAQAAAAAAgAAAAAI=</HashCode>
+      <FileName>Services\PersonDataList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectExceptionsAndHandling.Services.PersonDataParse" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAABABAAAAQRAQAAAACAIAAAAgIAAAAAACAAAg=</HashCode>
+      <FileName>Services\PersonDataParse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectExceptionsAndHandling.Services.PersonDataSave" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\PersonDataSave.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.203" Collapsed="true" />
+  </Class>
+  <Interface Name="FinalProjectExceptionsAndHandling.Interfaces.IDataList&lt;E&gt;">
+    <Position X="23.5" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAEAAQAAAAAAAAAAAAI=</HashCode>
+      <FileName>Interfaces\DataList.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FinalProjectExceptionsAndHandling.Interfaces.IDataParse&lt;E&gt;">
+    <Position X="26" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\DataParse.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FinalProjectExceptionsAndHandling.Interfaces.IDataSave&lt;E&gt;">
+    <Position X="28.5" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\DataSave.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
