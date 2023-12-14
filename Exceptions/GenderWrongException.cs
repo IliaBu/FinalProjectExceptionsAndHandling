@@ -13,7 +13,7 @@ namespace FinalProjectExceptionsAndHandling.Exceptions
     public class GenderWrongException : PersonDataWrongException
     {
         public GenderWrongException() :
-            base("Пол персоны указан неверно. Вводите английские буквы m или f")
+            base("Пол персоны указан неверно. Вводите русские буквы м или ж")
         { }
 
         public GenderWrongException(string message) :

@@ -12,8 +12,8 @@ namespace FinalProjectExceptionsAndHandling.Services
         private static string NAME_PATTERN = "^[а-яА-Яa-zA-Z]{2,}$";
         // Телефонный номер. Набор любых цифр и знака + от 6 до 14
         private static string PHONE_PATTERN = "^\\+?[1-9][0-9]{6,14}$";
-        // Пол. Любая из букв f или m независимо от регистра
-        private static string GENDER_PATTERN = "^[fmFM]$";
+        // Пол. Любая из букв м или ж независимо от регистра
+        private static string GENDER_PATTERN = "^[мжМЖ]$";
         // Дата рождения в формате dd.mm.yyyy
         private static string BIRTHDATE_PATTERN = "^[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{4}$";
 

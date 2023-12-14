@@ -39,7 +39,7 @@ namespace FinalProjectExceptionsAndHandling
                 ConsoleKeyInfo info;
                 while(true)
                 {
-                    Console.WriteLine("\nВведите Фамилию Имя Отчество ДатуРождения НомерТелефона Пол через пробел:");
+                    Console.WriteLine("\nВведите Фамилию Имя Отчество ДатуРождения НомерТелефона Пол через пробел:\n Пример: Иванов Иван Иванович 10.02.1982 89214587425 м");
                     data = Console.ReadLine();
                     PersonData personData = dataParse.ParsePersonDate(data);
                     dataList.Append(personData);
